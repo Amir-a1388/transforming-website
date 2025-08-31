@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'vazir';
-    src: url('/fonts/Vazir.woff')format('woff');
+    src: url('Vazir.woff')format('woff');
 }
 
 body{
@@ -796,3 +796,4 @@ footer{
   
 
   
+
