@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آخرین مقالات</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <nav class="title-nav-menu">
+    <div class="title-nav-logo">
+        hamel.transport
+    </div>
+    <div class="btn-primary">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <ul class="windows-nav-links">
+      <li><a href="../index.html">صفحه اصلی</a></li>
+      <li><a href="./about-page.html">درباره ما</a></li>
+      <li><a href="./contact-page.html">تماس با ما</a></li>
+      <li><a href="./service-page.html">خدمات ما</a></li>
+      <li><a href="./blog-page.html">آخرین بلاگ</a></li>
+    </ul>
+    <ul class="nav-links">
+      <li><a href="../index.html">صفحه اصلی</a></li>
+      <li><a href="./about-page.html">درباره ما</a></li>
+      <li><a href="./contact-page.html">تماس با ما</a></li>
+      <li><a href="./service-page.html">خدمات ما</a></li>
+      <li><a href="./blog-page.html">آخرین بلاگ</a></li>
+    </ul>
+</nav>
+    <header>
+        <div class="countainer-box">
+            <div class="logo">شرکت حمل و نقل  بین المللی حامل</div>
+            <div class="intro">خدمات حمل و نقل سریع و ایمن برای شما</div>
+            <div class="slogan">حمل بار بدون دغدغه</div>
+            <a href="./service-page.html" class="service-link">مشاهده خدمات</a>
+        </div>
+    </header>
+    <section class="blog">
+        <div class="blog-container">
+          <h2>آخرین مقالات و اخبار</h2>
+          <div class="blog-cards">
+      
+            <div class="blog-card">
+              <img src="../images/image3.jpg" alt="مقاله ۱">
+              <h3>نکات مهم برای حمل و نقل سریع</h3>
+              <p>در این مقاله روش‌های بهینه برای ارسال سریع و ایمن کالاها بررسی شده است...</p>
+              <a href="pages/blog1.html" class="read-more-btn">ادامه مطلب</a>
+            </div>
+      
+            <div class="blog-card">
+              <img src="../images/image4.jpg" alt="مقاله ۲">
+              <h3>چگونه بیمه بار به شما کمک می‌کند</h3>
+              <p>بیمه بار چه مزایایی دارد و چگونه می‌تواند ریسک خسارت را کاهش دهد...</p>
+              <a href="pages/blog1.html" class="read-more-btn">ادامه مطلب</a>
+            </div>
+      
+            <div class="blog-card">
+              <img src="../images/image5.jpg" alt="مقاله ۳">
+              <h3>انتخاب پکیج مناسب برای بار شما</h3>
+              <p>با مقایسه پکیج‌های مختلف، بهترین گزینه برای نیازهای خود را پیدا کنید...</p>
+              <a href="pages/blog1.html" class="read-more-btn">ادامه مطلب</a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <p class="footer-logo">hamel transport</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://wa.me/09123456789" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          </div>
+          <p class="footer-copy">&copy; 2025 Amir.dev | تمامی حقوق محفوظ است</p>
+        </div>
+    </footer> 
+    <script>
+        const menu = document.querySelector('.nav-links');
+        const btn = document.querySelector('.btn-primary');
+
+        btn.addEventListener('click', ()=>{
+            menu.classList.toggle('show');
+        })
+    </script>
+</body>
+</html>
