@@ -15,7 +15,7 @@ body{
 }
 
 .title-nav-menu{
-    position: absolute;
+    position: fixed;
     top: 0; left: 0; right: 0;
     background: #1a2634; 
     height: 80px;
@@ -59,7 +59,7 @@ body{
     flex-direction: column;
     gap: 20px;
     width: 240px;
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     right: -350px;
@@ -796,6 +796,7 @@ footer{
   
 
   
+
 
 
 
