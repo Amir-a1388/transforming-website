@@ -15,7 +15,7 @@ body{
 }
 
 .title-nav-menu{
-    position: fixed;
+    position: absolute;
     top: 0; left: 0; right: 0;
     background: #1a2634; 
     height: 80px;
@@ -42,7 +42,7 @@ body{
     gap: 6px;
     display: flex;
     background: none;
-    padding: 10px;
+    padding: 20px;
 }
 
 .btn-primary div{
@@ -59,10 +59,10 @@ body{
     flex-direction: column;
     gap: 20px;
     width: 240px;
-    position: fixed;
+    position: absolute;
     top: 0;
     bottom: 0;
-    right: -240px;
+    right: -350px;
     height: 100vh;
     transition: 0.5s;
 }
@@ -574,7 +574,7 @@ body{
     border: 2px solid #1a2634;
     border-radius: 15px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.1);
-    width: 210px;
+    width: 170px;
     transition: 0.3s;
 }
   
@@ -645,7 +645,7 @@ footer{
     display: none;
 }
 
-@media(max-width: 567px){
+@media(min-width: 567px){
     nav .btn-primary{
         display: none;
     }
@@ -796,6 +796,7 @@ footer{
   
 
   
+
 
 
 
