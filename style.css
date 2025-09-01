@@ -646,7 +646,7 @@ footer{
 }
 
 @media(min-width: 567px;){
-    nav .btn-primary{
+    .btn-primary{
         display: none;
     }
 
@@ -796,6 +796,7 @@ footer{
   
 
   
+
 
 
 
