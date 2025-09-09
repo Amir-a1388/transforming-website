@@ -89,7 +89,7 @@ body{
     color: #7dd49e;
 }
 
-header{
+.header-section{
     position: relative;
     height: 100vh;
     background: url('images/image1.jpg') no-repeat center/cover;
@@ -103,7 +103,7 @@ header{
     font-weight: 600;
 }
 
-header::before{
+.header-section::before{
     content: "";
     position: absolute;
     inset: 0;
@@ -795,4 +795,5 @@ footer{
  
   
   
+
   
