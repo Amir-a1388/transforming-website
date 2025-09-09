@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'vazir';
-    src: url('fonts/Vazir.woff')format('woff');
+    src: url('Vazir.woff')format('woff');
 }
 
 body{
@@ -92,7 +92,7 @@ body{
 .header-section{
     position: relative;
     height: 100vh;
-    background: url('images/image1.jpg') no-repeat center/cover;
+    background: url('image1.jpg') no-repeat center/cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -354,7 +354,7 @@ body{
 
 .pricing{
     padding: 80px 20px;
-    background: url('images/image6.jpg') no-repeat center/cover;
+    background: url('image6.jpg') no-repeat center/cover;
 }
   
 .pricing-container{
@@ -797,3 +797,4 @@ footer{
   
 
   
+
